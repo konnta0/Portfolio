@@ -352,3 +352,6 @@ MigrationBackup/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# For Mac
+.DS_Store
