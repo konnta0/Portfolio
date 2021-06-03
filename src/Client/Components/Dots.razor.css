@@ -1,13 +1,4 @@
-body {
-  margin: 0;
-  overflow: hidden;
-}
-
-.background {
-  background: #ab7cef;
-}
-
-.background span {
+dots {
   width: 20vmin;
   height: 20vmin;
   border-radius: 20vmin;
@@ -17,8 +8,10 @@ body {
   animation-duration: 6s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  z-index: -1;
 }
-.background span:nth-child(1) {
+
+dots:nth-child(1) {
   color: #FFACAC;
   top: 84%;
   left: 93%;
@@ -27,7 +20,8 @@ body {
   transform-origin: -16vw 5vh;
   box-shadow: -40vmin 0 5.8781059508vmin currentColor;
 }
-.background span:nth-child(2) {
+
+dots:nth-child(2) {
   color: #583C87;
   top: 79%;
   left: 16%;
@@ -36,7 +30,8 @@ body {
   transform-origin: -21vw 15vh;
   box-shadow: 40vmin 0 14.7132815509vmin currentColor;
 }
-.background span:nth-child(3) {
+
+dots:nth-child(3) {
   color: #E45A84;
   top: 37%;
   left: 47%;
@@ -45,7 +40,8 @@ body {
   transform-origin: 9vw 0vh;
   box-shadow: -40vmin 0 12.932601095vmin currentColor;
 }
-.background span:nth-child(4) {
+
+dots:nth-child(4) {
   color: #583C87;
   top: 58%;
   left: 92%;
@@ -54,7 +50,8 @@ body {
   transform-origin: 24vw -14vh;
   box-shadow: 40vmin 0 7.5737041864vmin currentColor;
 }
-.background span:nth-child(5) {
+
+dots:nth-child(5) {
   color: #583C87;
   top: 33%;
   left: 47%;
@@ -63,7 +60,8 @@ body {
   transform-origin: -14vw 18vh;
   box-shadow: 40vmin 0 9.0942210339vmin currentColor;
 }
-.background span:nth-child(6) {
+
+dots:nth-child(6) {
   color: #FFACAC;
   top: 4%;
   left: 72%;
@@ -72,7 +70,8 @@ body {
   transform-origin: 21vw -16vh;
   box-shadow: -40vmin 0 7.5789588813vmin currentColor;
 }
-.background span:nth-child(7) {
+
+dots:nth-child(7) {
   color: #E45A84;
   top: 6%;
   left: 47%;
@@ -81,7 +80,8 @@ body {
   transform-origin: -15vw 0vh;
   box-shadow: 40vmin 0 10.7474182491vmin currentColor;
 }
-.background span:nth-child(8) {
+
+dots:nth-child(8) {
   color: #E45A84;
   top: 72%;
   left: 6%;
@@ -90,7 +90,8 @@ body {
   transform-origin: -18vw -10vh;
   box-shadow: -40vmin 0 12.0815287433vmin currentColor;
 }
-.background span:nth-child(9) {
+
+dots:nth-child(9) {
   color: #FFACAC;
   top: 58%;
   left: 70%;
@@ -99,7 +100,8 @@ body {
   transform-origin: -15vw 18vh;
   box-shadow: 40vmin 0 5.5203079955vmin currentColor;
 }
-.background span:nth-child(10) {
+
+dots:nth-child(10) {
   color: #583C87;
   top: 31%;
   left: 61%;
@@ -108,7 +110,8 @@ body {
   transform-origin: 0vw 5vh;
   box-shadow: 40vmin 0 10.2603929008vmin currentColor;
 }
-.background span:nth-child(11) {
+
+dots:nth-child(11) {
   color: #583C87;
   top: 38%;
   left: 36%;
@@ -117,7 +120,7 @@ body {
   transform-origin: 3vw 1vh;
   box-shadow: -40vmin 0 13.4371469568vmin currentColor;
 }
-.background span:nth-child(12) {
+dots:nth-child(12) {
   color: #FFACAC;
   top: 62%;
   left: 74%;
@@ -126,7 +129,7 @@ body {
   transform-origin: 8vw 24vh;
   box-shadow: 40vmin 0 5.7374110962vmin currentColor;
 }
-.background span:nth-child(13) {
+dots:nth-child(13) {
   color: #FFACAC;
   top: 28%;
   left: 45%;
@@ -135,7 +138,7 @@ body {
   transform-origin: 19vw -20vh;
   box-shadow: 40vmin 0 12.8328228vmin currentColor;
 }
-.background span:nth-child(14) {
+dots:nth-child(14) {
   color: #583C87;
   top: 37%;
   left: 30%;
@@ -144,7 +147,7 @@ body {
   transform-origin: -11vw 5vh;
   box-shadow: 40vmin 0 7.2936200092vmin currentColor;
 }
-.background span:nth-child(15) {
+dots:nth-child(15) {
   color: #583C87;
   top: 22%;
   left: 44%;
@@ -153,7 +156,7 @@ body {
   transform-origin: -6vw -6vh;
   box-shadow: -40vmin 0 11.3525910603vmin currentColor;
 }
-.background span:nth-child(16) {
+dots:nth-child(16) {
   color: #E45A84;
   top: 27%;
   left: 13%;
@@ -162,7 +165,7 @@ body {
   transform-origin: -16vw -21vh;
   box-shadow: -40vmin 0 6.847643939vmin currentColor;
 }
-.background span:nth-child(17) {
+dots:nth-child(17) {
   color: #FFACAC;
   top: 33%;
   left: 77%;
@@ -171,7 +174,7 @@ body {
   transform-origin: -5vw -3vh;
   box-shadow: -40vmin 0 13.1230649537vmin currentColor;
 }
-.background span:nth-child(18) {
+dots:nth-child(18) {
   color: #E45A84;
   top: 5%;
   left: 66%;
@@ -180,7 +183,7 @@ body {
   transform-origin: 23vw 23vh;
   box-shadow: -40vmin 0 8.4798840913vmin currentColor;
 }
-.background span:nth-child(19) {
+dots:nth-child(19) {
   color: #583C87;
   top: 96%;
   left: 53%;
@@ -189,7 +192,7 @@ body {
   transform-origin: 16vw 24vh;
   box-shadow: 40vmin 0 11.7447256946vmin currentColor;
 }
-.background span:nth-child(20) {
+dots:nth-child(20) {
   color: #FFACAC;
   top: 5%;
   left: 5%;

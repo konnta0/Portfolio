@@ -1,0 +1,9 @@
+<bg @attributes="AdditionalAttributes" class="background">
+    @ChildContent
+</bg>
+@code
+{
+    [Parameter] public RenderFragment ChildContent { get; set; }
+
+    [Parameter(CaptureUnmatchedValues = true)] public IDictionary<string, object> AdditionalAttributes { get; set; }
+}
