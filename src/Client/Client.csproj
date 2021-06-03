@@ -10,5 +10,11 @@
     <PackageReference Include="Microsoft.Fast.Components.FluentUI" Version="0.2.0" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Pages\Index.razor.css">
+      <DependentUpon>Index.razor</DependentUpon>
+    </None>
+  </ItemGroup>
   
 </Project>

@@ -1,4 +1,4 @@
-﻿<FluentDesignSystemProvider>
+﻿<FluentDesignSystemProvider AdditionalAttributes="@GetFluentDesignSystemProviderAttributes()">
     <Router AppAssembly="@typeof(Program).Assembly" PreferExactMatches="@true">
         <Found Context="routeData">
             <RouteView RouteData="@routeData" />
@@ -8,3 +8,17 @@
         </NotFound>
     </Router>
 </FluentDesignSystemProvider>
+
+@code {
+
+    static Dictionary<string, object> GetFluentDesignSystemProviderAttributes()
+    {
+        return new()
+        {
+            // TODO:: use FluentDesignSystemProvider.neutralPalette FluentDesignSystemProvider.accentBaseColor
+            // For that purpose. Customize FluentDesignSystemProvider
+            {"accent-base-color", "#8734E1"},
+            {"background-color", "#F6FAFE"}
+        };
+    }
+}
