@@ -1,33 +1,12 @@
 ﻿@page "/"
 
 <Bg>
-    @for (var i = 0; i < 20; i++)
+    @for (var i = 0; i < new Random().Next(15, 20); i++)
     {
         <Dots></Dots>
     }    
 </Bg>
-@* <div class="background"> *@
-@*   <span></span> *@
-@*   <span></span> *@
-@*   <span></span> *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@*   $1$ <span></span> #1# *@
-@* </div> *@
+
 <Header></Header>
 <FluentButton Appearance="Appearance.Lightweight">light weight</FluentButton>
 <FluentButton Appearance="Appearance.Accent">accent</FluentButton>
