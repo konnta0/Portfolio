@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Components;
 
-namespace Client.Components
+namespace Client.Components.Background
 {
-    partial class Bg
+    partial class BackgroundDesign
     {
         [Parameter] public RenderFragment ChildContent { get; set; }
 

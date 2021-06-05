@@ -16,14 +16,5 @@
       <DependentUpon>Index.razor</DependentUpon>
     </None>
   </ItemGroup>
-
-  <ItemGroup>
-    <Compile Update="Components\Dots.cs">
-      <DependentUpon>Dots.razor</DependentUpon>
-    </Compile>
-    <Compile Update="Components\Bg.cs">
-      <DependentUpon>Bg.razor</DependentUpon>
-    </Compile>
-  </ItemGroup>
   
 </Project>

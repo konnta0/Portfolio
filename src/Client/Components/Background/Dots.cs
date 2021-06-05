@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Components;
 
-namespace Client.Components
+namespace Client.Components.Background
 {
     partial class Dots
     {
