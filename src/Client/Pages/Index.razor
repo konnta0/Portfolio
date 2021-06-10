@@ -1,5 +1,9 @@
 ﻿@page "/"
 
+<SiteWrapper>
+    <SiteHeader></SiteHeader>
+</SiteWrapper>
+
 <BackgroundDesign>
     @for (var i = 0; i < new Random().Next(15, 20); i++)
     {
@@ -7,14 +11,14 @@
     }    
 </BackgroundDesign>
 
-<Header></Header>
-<FluentButton Appearance="Appearance.Lightweight">light weight</FluentButton>
-<FluentButton Appearance="Appearance.Accent">accent</FluentButton>
-<FluentButton Appearance="Appearance.Neutral">natural</FluentButton>
-<FluentCard>
-    <h2>hello</h2>
-    <FluentButton Appearance="Appearance.Accent">Click</FluentButton>
-</FluentCard>
-<FluentProgressRing style="width: 102px; height: 102px;"></FluentProgressRing>
-<FluentAnchor Appearance="Appearance.Filled" Href="webcomponents">Web components</FluentAnchor>
+
+@* <FluentButton Appearance="Appearance.Lightweight">light weight</FluentButton> *@
+@* <FluentButton Appearance="Appearance.Accent">accent</FluentButton> *@
+@* <FluentButton Appearance="Appearance.Neutral">natural</FluentButton> *@
+@* <FluentCard> *@
+@*     <h2>hello</h2> *@
+@*     <FluentButton Appearance="Appearance.Accent">Click</FluentButton> *@
+@* </FluentCard> *@
+@* <FluentProgressRing style="width: 102px; height: 102px;"></FluentProgressRing> *@
+@* <FluentAnchor Appearance="Appearance.Filled" Href="webcomponents">Web components</FluentAnchor> *@
 

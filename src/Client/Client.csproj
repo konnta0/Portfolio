@@ -16,5 +16,17 @@
       <DependentUpon>Index.razor</DependentUpon>
     </None>
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Components\Header\SiteNavigationItem.cs">
+      <DependentUpon>SiteNavigationItem.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Header\SiteNavigation.cs">
+      <DependentUpon>SiteNavigation.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\SiteWrapper.cs">
+      <DependentUpon>SiteWrapper.razor</DependentUpon>
+    </Compile>
+  </ItemGroup>
   
 </Project>
