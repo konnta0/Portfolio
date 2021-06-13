@@ -27,6 +27,15 @@
     <Compile Update="Components\Content\SiteWrapper.cs">
       <DependentUpon>SiteWrapper.razor</DependentUpon>
     </Compile>
+    <Compile Update="Components\Content\About\AboutContainer.cs">
+      <DependentUpon>AboutContainer.razor</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Shared\About.razor" />
+    <_ContentIncludedByDefault Remove="Shared\Footer.razor" />
+    <_ContentIncludedByDefault Remove="Shared\SurveyPrompt.razor" />
   </ItemGroup>
   
 </Project>
