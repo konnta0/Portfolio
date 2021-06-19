@@ -1,5 +1,5 @@
 section {
-    --section-height-spacing: 100px 0px;
+    --section-height-spacing: 50px 0px;
     --section-height-spacing-mobile: 50px 0px;
     margin: var(--section-height-spacing);
     grid-column: 2;
