@@ -30,11 +30,8 @@
     <Compile Update="Components\Content\About\AboutContainer.cs">
       <DependentUpon>AboutContainer.razor</DependentUpon>
     </Compile>
-    <Compile Update="Components\Content\Sections\About\Skill.cs">
-      <DependentUpon>Skill.razor</DependentUpon>
-    </Compile>
-    <Compile Update="Components\Content\Sections\About\SkillTag.cs">
-      <DependentUpon>SkillTag.razor</DependentUpon>
+    <Compile Update="Components\Content\Sections\About\Profiles\ProfileItem.cs">
+      <DependentUpon>ProfileItem.razor</DependentUpon>
     </Compile>
   </ItemGroup>
 

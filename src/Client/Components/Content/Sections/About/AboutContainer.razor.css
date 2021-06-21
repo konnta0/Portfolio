@@ -10,12 +10,7 @@
 
 .profile-skill-grid {
     width: 100%;
-}
-
-.profile {
-    
-}
-
-.skills {
-
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: max-content;
 }
