@@ -33,6 +33,9 @@
     <Compile Update="Components\Content\Sections\About\Profiles\ProfileItem.cs">
       <DependentUpon>ProfileItem.razor</DependentUpon>
     </Compile>
+    <Compile Update="Components\Background\BackgroundDesign.cs">
+      <DependentUpon>BackgroundDesign.razor</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
