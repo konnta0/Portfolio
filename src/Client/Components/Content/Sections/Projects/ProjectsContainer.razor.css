@@ -1,0 +1,19 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+}
+
+.project-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: repeat(auto-fill, 300px);
+    grid-gap:5px;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+}

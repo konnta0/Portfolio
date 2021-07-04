@@ -1,0 +1,8 @@
+.project-item {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /*grid-template-columns: max-content;*/
+    /*grid-template-rows: 50% 50%;*/
+    flex-flow: column;
+}
