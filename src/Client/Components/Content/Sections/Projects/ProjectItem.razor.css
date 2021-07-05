@@ -2,7 +2,19 @@
     width: 100%;
     height: 100%;
     display: flex;
-    /*grid-template-columns: max-content;*/
-    /*grid-template-rows: 50% 50%;*/
     flex-flow: column;
+}
+
+.project-icon {
+    width: 100%;
+    height: 150px;
+}
+
+.icon {
+    font-size:100px;
+}
+
+.project-overview {
+    text-align: center;
+    width: 100%;
 }

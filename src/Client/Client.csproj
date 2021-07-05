@@ -36,6 +36,12 @@
     <Compile Update="Components\Background\BackgroundDesign.cs">
       <DependentUpon>BackgroundDesign.razor</DependentUpon>
     </Compile>
+    <Compile Update="Components\Content\Sections\About\Skills\SkillTag.cs">
+      <DependentUpon>SkillTag.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\Sections\Projects\ProjectItem.cs">
+      <DependentUpon>ProjectItem.razor</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
