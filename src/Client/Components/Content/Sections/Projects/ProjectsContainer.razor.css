@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .project-grid {
     width: 100%;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(auto-fill, 300px);
     grid-gap:5px;
 }
