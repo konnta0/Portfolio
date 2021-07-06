@@ -42,6 +42,15 @@
     <Compile Update="Components\Content\Sections\Projects\ProjectItem.cs">
       <DependentUpon>ProjectItem.razor</DependentUpon>
     </Compile>
+    <Compile Update="Components\Content\Sections\Section.cs">
+      <DependentUpon>Section.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\Sections\About\AboutContainer.cs">
+      <DependentUpon>AboutContainer.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\Sections\About\Skills\SkillItem.cs">
+      <DependentUpon>SkillItem.razor</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
