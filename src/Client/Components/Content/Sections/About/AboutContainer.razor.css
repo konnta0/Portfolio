@@ -5,12 +5,12 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin: 20px;
+    margin: 20px 0;
 }
 
 .profile-skill-grid {
     width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     grid-template-rows: max-content;
 }
