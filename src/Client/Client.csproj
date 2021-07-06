@@ -7,7 +7,47 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.6" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.6" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Fast.Components.FluentUI" Version="0.2.0" />
     <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="Pages\Index.razor.css">
+      <DependentUpon>Index.razor</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Components\Header\SiteNavigationItem.cs">
+      <DependentUpon>SiteNavigationItem.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Header\SiteNavigation.cs">
+      <DependentUpon>SiteNavigation.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\SiteWrapper.cs">
+      <DependentUpon>SiteWrapper.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\About\AboutContainer.cs">
+      <DependentUpon>AboutContainer.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\Sections\About\Profiles\ProfileItem.cs">
+      <DependentUpon>ProfileItem.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Background\BackgroundDesign.cs">
+      <DependentUpon>BackgroundDesign.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\Sections\About\Skills\SkillTag.cs">
+      <DependentUpon>SkillTag.razor</DependentUpon>
+    </Compile>
+    <Compile Update="Components\Content\Sections\Projects\ProjectItem.cs">
+      <DependentUpon>ProjectItem.razor</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Shared\About.razor" />
+    <_ContentIncludedByDefault Remove="Shared\Footer.razor" />
+    <_ContentIncludedByDefault Remove="Shared\SurveyPrompt.razor" />
+  </ItemGroup>
+  
 </Project>

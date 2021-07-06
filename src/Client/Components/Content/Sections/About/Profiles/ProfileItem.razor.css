@@ -1,0 +1,7 @@
+.profile {
+    display: flex;
+}
+
+.profile > p {
+    margin: 5px 2px;
+}

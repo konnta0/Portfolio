@@ -1,0 +1,13 @@
+.footer {
+    height: 88px;
+    align-items: center;
+    text-align: center;
+    color: var(--accent-foreground-rest);
+    display: flex;
+    grid-column: 2;
+}
+
+.copyright {
+    width: 100%;
+    
+}

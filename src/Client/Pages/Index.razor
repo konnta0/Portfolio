@@ -1,7 +1,16 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+<SiteWrapper>
+    <SiteHeader></SiteHeader>
+    <AboutContainer></AboutContainer>
+    <ProjectsContainer></ProjectsContainer>
+    <SiteFooter></SiteFooter>
+</SiteWrapper>
 
-Welcome to your new app.
+<BackgroundDesign>
+    @for (var i = 0; i < new Random().Next(15, 20); i++)
+    {
+        <Dots></Dots>
+    }    
+</BackgroundDesign>
 
-<SurveyPrompt Title="How is Blazor working for you?" />

@@ -1,0 +1,5 @@
+.skill-tag {
+    margin: 5px 2px;
+    --design-unit:10;
+    --corner-radius:15;
+}

@@ -1,0 +1,10 @@
+site-navigation{
+    align-items: center;
+    height: 88px;
+    justify-content: space-between;
+    grid-area: 1 / 1 / auto / end;
+    display: grid;
+    width: 100%;
+    grid-column: 2 / auto;
+    grid-template-columns: 1fr;
+}

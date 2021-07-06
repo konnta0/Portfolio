@@ -1,0 +1,10 @@
+.background-design {
+    contain: content;
+    height: 99vh;
+    isolation: isolate;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
+}

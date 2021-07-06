@@ -1,0 +1,10 @@
+section {
+    --section-height-spacing: 30px 0px;
+    --section-height-spacing-mobile: 30px 0px;
+    margin: var(--section-height-spacing);
+    grid-column: 2;
+    color: var(--accent-foreground-active);
+    width: 100%;
+    --outline-width: 3;
+}
+

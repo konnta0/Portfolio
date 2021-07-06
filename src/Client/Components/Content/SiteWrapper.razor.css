@@ -1,0 +1,8 @@
+.site-wrapper {
+    --wrapper-max-width: 1200px;
+    --wrapper-gutter: 5vw;
+    display: grid;
+    grid-auto-rows: minmax(0,auto);
+    grid-template-columns: minmax(var(--wrapper-gutter),1fr) minmax(0,var(--wrapper-max-width)) minmax(var(--wrapper-gutter),1fr);
+    isolation: isolate;
+}
